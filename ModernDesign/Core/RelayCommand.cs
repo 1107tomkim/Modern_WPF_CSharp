@@ -23,5 +23,10 @@ namespace ModernDesign.Core
             _execute = execute;
             _canExecute = canExecute;
         }
+
+        public bool CanExecute(object parameter)
+        {
+
+        }
     }
 }
